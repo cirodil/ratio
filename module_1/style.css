@@ -205,3 +205,49 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
+
+.card-header {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+
+  color: #212353;
+}
+
+.card-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* 1 */
+
+  color: #4b5d68;
+}
+
+.more {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  letter-spacing: 0.005em;
+  text-decoration: none;
+  /* 2 */
+
+  color: #212353;
+}
+
+.more::after {
+  content: "";
+  width: 14px;
+  height: 6px;
+
+  border: 2px solid #9c69e2;
+  box-sizing: border-box;
+  transform: rotate(90deg);
+}
