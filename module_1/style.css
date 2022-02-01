@@ -6,11 +6,13 @@
 }
 
 body {
+  margin: 0 auto;
+  padding: 62px;
+  max-width: 1600px;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 1248px;
+  /* border: 1px solid; */
 }
 
 .header {
@@ -70,6 +72,11 @@ body {
 }
 
 .headline {
+  /* position: relative; */
+  background-image: url(./assets/image1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  /* max-width: 1248px; */
 }
 
 .headline-header {
@@ -112,6 +119,8 @@ body {
   border: none;
   margin-top: 50px;
   /* identical to box height, or 29px */
-
   color: #ffffff;
+}
+
+
 }
