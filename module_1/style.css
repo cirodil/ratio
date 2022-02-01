@@ -21,7 +21,6 @@ body {
   align-items: center;
   max-width: 401px;
   height: 35px;
-  border: 1px solid;
 }
 
 .logo {
@@ -110,6 +109,7 @@ body {
 .learn-more {
   width: 170px;
   height: 60px;
+  margin-bottom: 115px;
   background: #9c69e2;
   border-radius: 50px;
   font-style: normal;
@@ -122,5 +122,39 @@ body {
   color: #ffffff;
 }
 
+.about {
+  margin-top: 99px;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 
+  background: url(./assets/image2.png) no-repeat;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  margin-right: 131px;
+}
+
+.about-header {
+  margin-right: 92px;
+  width: 475px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* or 52px */
+
+  color: #212353;
+}
+
+.about-description {
+  margin: 40px 92px 0 0;
+  width: 474px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  color: #4b5d68;
 }
