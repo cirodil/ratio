@@ -230,24 +230,40 @@ body {
 
 .more {
   font-style: normal;
+  height: 26px;
   font-weight: 800;
   font-size: 16px;
   line-height: 160%;
   /* identical to box height, or 26px */
-
   letter-spacing: 0.005em;
   text-decoration: none;
   /* 2 */
-
   color: #212353;
 }
 
-.more::after {
-  content: "";
-  width: 14px;
-  height: 6px;
+.arrow {
+  
+  width: 20px;
+  margin-left: 20px;
 
-  border: 2px solid #9c69e2;
-  box-sizing: border-box;
-  transform: rotate(90deg);
+}
+
+.learn {
+  display: flex;
+  align-items: center;
+  
+  /* 2 */
+  color: #212353; 
+  border: 1px solid green;
+}
+
+.learn p {
+  font-style: normal;
+  height: 26px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  letter-spacing: 0.005em;
+  text-decoration: none;
 }
